@@ -221,3 +221,12 @@ function addEnemy(){
 	enemys.push(plain);
 	backLayer.addChild(plain);
 }
+window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
+    if (e.keyName === 'back') {
+        try {
+            tizen.application.getCurrentApplication().exit();
+        } catch (err) {
+            console.log('Error: ', err);
+        }
+    }
+});
