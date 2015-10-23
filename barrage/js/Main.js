@@ -2,7 +2,12 @@
  * Main
  * */
 //设定游戏速度，屏幕大小，回调函数
-init(20,"mylegend",480,800,main);
+
+if(LGlobal.canTouch){
+	LGlobal.stageScale = LStageScaleMode.EXACT_FIT;
+	LSystem.screen(LStage.FULL_SCREEN);
+}
+init(30,"mylegend",320,508,main);
 
 /**层变量*/
 //显示进度条所用层
@@ -99,7 +104,7 @@ function gameInit(event){
 	backLayer.addChild(pointText);
 	
 	//加入玩家
-	player = new Plain("player",0,200,600,[5]);
+	player = new Plain("player",0,100,300,[5]);
 	backLayer.addChild(player);
 	
 	//添加贞事件，开始游戏循环
@@ -122,7 +127,7 @@ function onup(event){
 	player.canshoot = false;
 	player.shootctrl = player.shootspeed;
 }
-function ondown(event){	
+function ondown(event){
 	monseIsDown = true;	
 	player.shootcount = 0;	
 	player.shootctrl = player.shootspeed+1;	
@@ -229,4 +234,4 @@ window.addEventListener('tizenhwkey', function onTizenHwKey(e) {
             console.log('Error: ', err);
         }
     }
-});
+},false);
