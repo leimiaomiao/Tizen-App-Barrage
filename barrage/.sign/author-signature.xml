@@ -4,15 +4,15 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>IST5ChD99LNqPFEb8k7OyHovm2jY53OOaJ46uCzsHwA=</DigestValue>
+<DigestValue>k4SO4U40teGV8BBrc+AR7U35Pi754C9ouSM8TLhwCWU=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>mVyzTIt7toDjqJDyK8zFNfUxuVnC7msv17Oai/+NZdI=</DigestValue>
 </Reference>
-<Reference URI="icon.png">
+<Reference URI="icon.jpg">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+<DigestValue>xhTPybWN75ta5PykkDCMa1pjogn23gVDHMNLqQKjhBI=</DigestValue>
 </Reference>
 <Reference URI="images%2F1.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -83,9 +83,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-iD2FzSpJRrweh31kcex4QnsYkZOvCkJSisDDnyjbQlKDJ+WfV+PjUxP9Fkyb0frZs6GxKzPHBqv5
-eAnarVO/VYRAVFQGGGKSockZDjjgQs4ctuoRJ12r4iH8Bw03DooAReKg/CE2Ey3wVYDZR42UItrZ
-ZhP/nLzmD1J96C4ROP8=
+HFEMZD83Gbfhrq9fdQYc+/q01YPK9sPfTUC6/GXLxBEncgkInYxIihuqbaksLuGuRCnoOby/Hlhh
+Bxu/SvgaW8evMC7qlS9wsJ7ne5BZpPe0zzw2jfz6M0+K/19NKof5pd+pyitKbzJPaqp7iXSnT++U
+Ufpqf98O/ergqvzdIhM=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
